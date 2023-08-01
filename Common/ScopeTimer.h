@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include <chrono>
+#include <iostream>
 
 // This is an instruction profiler
 class ScopedTimer
