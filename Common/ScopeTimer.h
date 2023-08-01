@@ -14,7 +14,7 @@ public:
     ScopedTimer( ScopedTimer&& ) = delete;
     auto operator=( const ScopedTimer& )->ScopedTimer & = delete;
     auto operator=( ScopedTimer&& )->ScopedTimer & = delete;
-    ~ScopedTimer()
+    inline ~ScopedTimer()
     {
         using namespace std::chrono;
         auto stop = ClockType::now();
