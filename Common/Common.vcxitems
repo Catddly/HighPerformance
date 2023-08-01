@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)MainEntryHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeTimer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)TypeName.h" />
   </ItemGroup>
 </Project>

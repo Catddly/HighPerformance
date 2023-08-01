@@ -1,5 +1,7 @@
 #include "MainEntryHelper.h"
 
+#include <iostream>
+
 // Manually Header
 void AutoTypeDeduction();
 void CopyEpsilon();

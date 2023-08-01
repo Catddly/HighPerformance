@@ -28,9 +28,9 @@ void StdLibrary();
 
 int main()
 {
-	//Entry( Transform );
-	//Entry( DivideAndConquer );
-	//Entry( CountIf );
-	//Entry( CopyIf );
+	Entry( Transform );
+	Entry( DivideAndConquer );
+	Entry( CountIf );
+	Entry( CopyIf );
 	Entry( StdLibrary );
 }
